@@ -4,3 +4,11 @@ source =
 
 omit =
     app/manage.py
+    app/config/wsgi.py
+    app/config/asgi.py
+
+
+[report]
+;무시할 줄을 정할 수 있음.
+exclude_lines =
+    def __str__
