@@ -1,3 +1,6 @@
 from django.test import TestCase
 
-# Create your tests here.
+
+class MainItemTest(TestCase):
+    def test_get_items(self):
+        response = self.client.get('/main/items/')

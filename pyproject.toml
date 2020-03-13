@@ -8,6 +8,11 @@ authors = ["hyeonggeun2 <dhgudrms12@gmail.com>"]
 python = "^3.7"
 django = "^3.0.4"
 coverage = "^5.0.3"
+requests = "^2.23.0"
+pytest = "^5.4.0"
+pytest-django = "^3.8.0"
+codecov = "^2.0.16"
+pytest-cov = "^2.8.1"
 
 [tool.poetry.dev-dependencies]
 
